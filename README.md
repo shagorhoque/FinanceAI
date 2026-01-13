@@ -1,10 +1,52 @@
 # FinanceAI
+npm install @fontsource/plus-jakarta-sans
+import "@fontsource/plus-jakarta-sans/400.css";
+@type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {
+      fontFamily: {
+        financeai: [
+          "Plus Jakarta Sans",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "Helvetica",
+          "Arial",
+          "sans-serif",
+        ],
+      },
+    },
+  },
+  plugins: [],
+};
+src/index.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+@layer base {
+  html {
+    font-family: theme("fontFamily.financeai");
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+}
 
-Write/home/user/Finance.AI/README.md
 <div align="center">
 
+<h1 className="font-financeai text-4xl font-bold tracking-tight">
+  FinanceAI
+</h1>
 
+<div className="card-premium p-6">
+  <p className="text-muted">Your intelligent financial companion</p>
+  <button className="button-premium mt-4">
+    Upgrade to Premium
+  </button>
+</div>
  
 
 
