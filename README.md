@@ -1,6 +1,5 @@
 # FinanceAI
-Read/home/user/Finance.AI/README.md
-Read 28 lines
+
 
 Write/home/user/Finance.AI/README.md
 <div align="center">
