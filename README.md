@@ -1,39 +1,5 @@
 # FinanceAI
-npm install @fontsource/plus-jakarta-sans
-import "@fontsource/plus-jakarta-sans/400.css";
-@type {import('tailwindcss').Config} */
-module.exports = {
-  content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
-  theme: {
-    extend: {
-      fontFamily: {
-        financeai: [
-          "Plus Jakarta Sans",
-          "system-ui",
-          "-apple-system",
-          "Segoe UI",
-          "Roboto",
-          "Helvetica",
-          "Arial",
-          "sans-serif",
-        ],
-      },
-    },
-  },
-  plugins: [],
-};
-src/index.css
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
-@layer base {
-  html {
-    font-family: theme("fontFamily.financeai");
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
-  }
-}
 
 <div align="center">
 
