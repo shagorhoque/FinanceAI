@@ -1,1 +1,92 @@
+/**
+ * Design Tokens – Single Source of Truth
+ * All measurements in pixels (px)
+ */
+
+export const designTokens = {
+  // Colors (Hex)
+  colors: {
+    // Backgrounds
+    pageBackground: "#F8FAFC",
+    cardBackground: "#FFFFFF",
+
+    // Gradients
+    primaryGradientStart: "#10B981", // emerald-500
+    primaryGradientEnd: "#059669",   // emerald-600
+
+    // Text
+    textPrimary: "#0F172A",   // slate-900
+    textSecondary: "#64748B", // slate-500
+    textTertiary: "#94A3B8",  // slate-400
+
+    // Borders
+    borderLight: "#E2E8F0",  // slate-200
+    borderMedium: "#CBD5E1", // slate-300
+
+    // Message bubbles
+    userBubble: "#10B981",     // emerald-500
+    assistantBubble: "#F1F5F9", // slate-100
+
+    // States
+    hoverBg: "#F1F5F9",
+    focusRing: "#10B981",
+
+    // Disclaimer
+    disclaimerText: "#64748B",
+    disclaimerBg: "#FEF3C7", // amber-100
+  },
+
+  // Container & Layout
+  layout: {
+    maxWidth: 800, // Main card max width
+    cardBorderRadius: 24, // Card corner radius
+    cardPadding: 32, // Card internal padding
+    cardShadow:
+      "0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)", // shadow-md
+  },
+
+  // Header
+  header: {
+    height: 80, // Header total height
+    paddingVertical: 20, // Top/bottom padding
+    paddingHorizontal: 24, // Left/right padding
+    iconSize: 40, // Logo icon size
+    iconRadius: 12, // Logo corner radius
+    titleFontSize: 20, // Title font size
+    titleLineHeight: 28, // Title line height
+    subtitleFontSize: 14, // Subtitle font size
+    subtitleLineHeight: 20, // Subtitle line height
+  },
+
+  // Main Content
+  content: {
+    iconSize: 64, // Center icon size
+    iconRadius: 20,
+    headlineFontSize: 28,
+    headlineLineHeight: 36,
+    bodyFontSize: 16,
+    bodyLineHeight: 24,
+    sectionSpacing: 24,
+  },
+
+  // Suggestion Pills
+  suggestions: {
+    height: 56,
+    paddingHorizontal: 20,
+    borderRadius: 16,
+    fontSize: 15,
+    iconSize: 20,
+    gap: 12,
+  },
+
+  // Input Bar
+  input: {
+    height: 56,
+    borderRadius: 16,
+    fontSize: 15,
+    paddingHorizontal: 16,
+    sendButtonSize: 48,
+    sendButtonRadius: 16,
+  },
+};
 
